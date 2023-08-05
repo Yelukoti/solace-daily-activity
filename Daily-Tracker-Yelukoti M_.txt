@@ -1,0 +1,34 @@
+﻿Reference of Youtube:
+
+
+Scenario 1→A new user account is created in Youtube→{Publisher→Signup_Service} 
+                                  →1. User Authentication Microservices.
+                                  →2. User Profile Service.
+                                  →3. Account Verification.
+                                  →4.Notification Service.
+
+
+Scenario 2→The user logs in to Youtube using the account→{Publisher→Login_service}
+                                 →1.Watch History Service.
+                                 →2.User Profile Service.
+                                 →3.Recommendation Service.
+
+
+Scenario 3→Create a subscription service in Youtube→{Publisher–Add_subscription}
+                                 →1.Subscription Service.
+                                 →2.Content Management Service.
+                                 →3.Recommendation Service.
+
+
+Scenario 4→Create a channel→{Publisher→Add_channel service}
+                                 →1.Channel Profile Service
+                                 →2.Channel Creation Service
+                                 →3.Video Upload Service.
+                                 →4.Playlist Management Service.
+
+
+Scenario 5→Uploads a Video→{Publisher→Upload_video service}
+                                 →1.Video Upload Service
+                                 →2.Video Processing Service
+                                 →3.Thumbnail Generation Service.
+                                 →4.Copyright Management Service.
