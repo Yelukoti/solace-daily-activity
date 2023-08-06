@@ -1,0 +1,138 @@
+﻿Daily Activity Track
+Date—> 04-08-2023
+
+
+7)--->High Availability Architecture→ It's a design approach in which a system or application is built to ensure the uninterrupted communication or any operation.
+
+
+In high availability architecture we have,Redundancy i,e the components are duplicated,such that if one goes down the other can handle that operation.
+We have Data Replication, in which each important data is duplicated.
+Monitoring and alerting→Constant checking with the services.
+
+
+8)  a)-->node js code for calculator→
+
+
+const readline = require('readline');
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
+function add(x, y) {
+  return x + y;
+}
+function subtract(x, y) {
+  return x - y;
+}
+function multiply(x, y) {
+  return x * y;
+}
+function divide(x, y) {
+  if (y === 0) {
+    console.log("Infinity.");
+  }
+  return x / y;
+}
+rl.question('Enter operator (+, -, *, /): ', (operator) => {
+  if (['+', '-', '*', '/'].includes(operator)) {
+    rl.question('Enter first number: ', (num1) => {
+      rl.question('Enter second number: ', (num2) => {
+        num1 = parseFloat(num1);
+        num2 = parseFloat(num2);
+        let result;
+        switch (operator) {
+          case '+':
+            result = add(num1, num2);
+            break;
+          case '-':
+            result = subtract(num1, num2);
+            break;
+          case '*':
+            result = multiply(num1, num2);
+            break;
+          case '/':
+            result = divide(num1, num2);
+            break;
+        }
+        console.log(`Result: ${result}`);
+        rl.close();
+      });
+    });
+  } else {
+    console.log("Invalid operator. Please enter +, -, *, or /.");
+    rl.close();
+  }
+});
+
+
+8)---b)-->parsed an xml code using node js and displayed the response in the browser.[COMPLETED]
+
+
+ 
+9)Created a new Solace account→Created an Event Broker Service→deployed in the Ohio region ,specified both cluster and vpn name.[COMPLETED]
+
+
+6)Queue Endpoint—>It's an address that represents a specific location of the message queue system.Queue endpoint is used to send or receive messages between two applications.
+
+
+  Topic Endpoint—>Its an address that represents a specific location of the message system that involves or supports publisher and subscriber.
+
+
+
+
+1)Facebook API→ Graph API→It allows the developers to interact with various facebook platforms,such as retrieving data ,posting content, and managing pages.
+The Graph API uses HTTP requests to access and manipulate data stored on Facebook. Developers can use it to create applications, integrate social features, and gather insights from user interactions on the platform. The API provides access to different types of data, such as user profiles, photos, posts, comments, likes, and more. It plays a crucial role in building third-party applications that integrate with Facebook's ecosystem.
+
+
+Business utilities→Social Media Management: The API allows businesses to schedule and manage posts on their Facebook pages, helping them maintain a consistent and engaging online presence.
+Messenger Integration: Businesses can integrate Facebook Messenger with their websites and applications using the API, providing a seamless communication channel for customer inquiries and support.
+
+
+Reviews and Recommendations: Integrating the API with customer reviews and recommendations can enhance a business's online reputation and credibility.
+
+
+Parameters and Endpoints→
+Endpoints→
+/me: Represents the currently authenticated user.
+/user-id: Represents a specific user's profile.
+/page-id: Represents a specific Facebook page.
+/group-id: Represents a specific Facebook group.
+
+
+Parameters→
+fields: Specifies the fields of data to be returned in the API response. For example: ?fields=id,name,email.
+limit: Limits the number of results returned in a single API request. For example: ?limit=10.
+since and until: Used to filter results by date. For example: ?since=2023-01-01.
+
+
+LInkedIn API→
+LinkedIn provides developers with the LinkedIn API, which is a set of tools and resources to interact with the LinkedIn platform programmatically. One commonly used LinkedIn API is the "OAuth 2.0 Authorization Code Flow," which allows third-party applications to access LinkedIn user data in a secure and controlled manner. Here are some key points about this API.
+
+
+Authentication: The OAuth 2.0 Authorization Code Flow is used to authenticate users and obtain access tokens, which are required to make API requests on behalf of the user.
+
+
+User Consent: Before an application can access a user's LinkedIn data, the user needs to grant explicit consent. This involves redirecting the user to LinkedIn's authorization page, where they can review the permissions requested by the application.
+
+
+Access Tokens: Once the user grants permission, the application receives an authorization code. This code is then exchanged for an access token that allows the application to make authorized API requests on behalf of the user.
+
+
+Business Utilities→
+Recruitment and Talent Acquisition: Businesses can use the API to integrate LinkedIn job postings and company profiles directly into their career websites. This helps streamline the recruitment process and attract potential candidates who are actively using LinkedIn.
+
+
+Parameters and Endpoints→
+Endpoints→
+/me: Represents the currently authenticated user's profile.
+/people: Allows searching for LinkedIn members using various filters and criteria.
+/companies: Represents company profiles and allows searching for companies.
+
+
+Parameters→
+projection: Determines the fields of data to be returned in the API response.
+count: Limits the number of results returned in a single API request.
+start: Specifies the starting index for paginated results.
+
+
+Candidate Screening: The API can be used to retrieve detailed information about potential job candidates, including their work experience, skills, and endorsements. This can aid in more informed candidate screening and selection.
