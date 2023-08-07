@@ -1,0 +1,64 @@
+﻿Daily Activity→07-08-2023
+
+
+file.js→
+
+
+var fs=require("fs");
+fs.readFile('sample.html',function(err,data){
+ if(err) return console.error(err);
+ console.log(data.toString());
+});
+console.log("Program Ended");
+
+
+sample.html→
+
+
+<html>
+<head>
+ <title>My Webpage</title>
+</head>
+<body>
+ <h5>Welcome to My Webpage</h5>
+</body>
+</html>
+
+
+file1.json→
+
+
+var fs=require("fs");
+fs.readFile('users1.json',function(err,data){
+ if(err) return console.error(err);
+ console.log(data.toString());
+});
+console.log("Program Ended");
+
+
+users1.json→
+
+
+[{"name":"abc","age":10]},
+{"name":"xyz","age":20]},
+{"name":"solace3","age":30]}]
+
+
+file1.json→
+
+
+var fs=require("fs");
+fs.readFile('node1.txt’',function(err,data){
+ if(err) return console.error(err);
+ console.log(data.toString());
+});
+console.log("Program Ended");
+
+
+node1.txt 
+
+
+Hello Abcd!.
+
+
+2)-->Practiced Pub-Sub Scenario and Solace CLI Access.
