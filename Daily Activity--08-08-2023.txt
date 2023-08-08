@@ -53,8 +53,9 @@ setTimeout(() => {
  console.log('Delayed message');
 }, 2000);
 console.log('End');
-sampleasyn2.js→ 
 
+
+sampleasyn2.js→ 
 
 const fs = require('fs');
 console.log('Start reading file...');
