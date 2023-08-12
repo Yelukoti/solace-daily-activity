@@ -1,0 +1,20 @@
+﻿RACK
+
+
+A rack is a supporting framework that holds hardware modules. In this context, racks typically contain servers, hard disk drives and other computing equipment. Racks make it possible to contain a lot of equipment in a small physical footprint without requiring shelving.Nineteen-inch racks are used in data centers and server rooms as well as ISP, telecommunication and computing facilities. Other uses for racks include audio and video equipment such as amplifiers and small scale audio mixers and industrial power, control and automation hardware.
+
+
+Types of Racks:
+
+
+There are three primary types of racks: open frame racks, rack enclosures and wall-mount racks. 
+
+
+-> Open frame racks are just that—open frames with mounting rails, but without sides or doors. They’re typically used forapplications where the rack does not need to control airflow or provide physical security. Open frame racks are good for network wiring closet and distribution frame applications that have high-density cabling because they provide convenient
+access and lots of open space for cable management.
+
+
+->Enclosed Racks: These racks have front and rear doors, providing additional security and protection for sensitive equipment. They help control airflow and reduce dust intrusion.
+
+
+->Wall-Mount Racks: Designed to be mounted on walls, these racks are space-saving solutions for smaller installations where floor space is limited.
